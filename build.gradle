@@ -1,0 +1,23 @@
+// Top-level build file. Deliberately uses AGP 7.4.2, which is a stable,
+// currently-supported plugin version that still allows minSdkVersion 19
+// for a pure-Java, no-NDK project like this one.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

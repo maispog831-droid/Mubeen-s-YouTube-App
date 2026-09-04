@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YouTube</string>
+    <string name="nav_back">&#9664;</string>
+    <string name="nav_forward">&#9654;</string>
+    <string name="nav_reload">&#8635;</string>
+</resources>
